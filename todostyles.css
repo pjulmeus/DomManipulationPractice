@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(100, 76, 110);
+    padding: 20px;
+}
+button{
+
+    margin:
+     20px;
+}
+
+#todo {
+    width: 25%;
+}
+.listword{
+    font-size: 1rem;
+}
+
+.subtitle{
+ font-weight: bold ;
+ color: whitesmoke;
+ background-color: hsla(160, 100%, 75%, 0.142);
+ padding: .5rem;
+}
+.header {
+margin-top: 0;
+ margin-bottom: 15px;
+}
+h1 {
+color: darkcyan;
+font-size: 100px
+}
+
+h1, h3 {
+text-align: center;
+}
+
+p{
+    margin: 5px;
+}
+
+h3{
+color: lightseagreen;
+font-size: 50px;
+}
+
+.finish{
+    text-decoration: line-through
+}

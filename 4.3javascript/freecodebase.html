@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name
+            <p>
+        <input type="text" id="name" placeholder="Enter Your Name" required/>
+    </label>
+            </p>
+        <label for="email" id="email-label">Email
+        <p>
+        <input type="email" id="email" placeholder="Enter Your Email" required/>
+    </label>
+        </p>
+
+        <label for="number" id="number-label" > Age (Optional)
+            <p>
+            <input type="number" id="number" placeholder="Age" min="10" max="99"/>
+        </label>
+            </p>
+
+        <label for="dropdown">Which option best describes your current role?
+            <p>
+        <select name="" id="dropdown" >
+            <option value="0">Select an Option</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+        </select>
+        </label>
+    </p>
+    <div>
+    <label>Would you recommend freeCodeCamp to a friend?
+        <br>
+       <label for="friend"></label><input id="friend" name="option1" type="option" value="option"/> Definitely </label>
+
+       <label for="friend"></label><input id="friend" type="radio" name="option" value="option"/> Not Sure</label>
+       <br>
+       <label for="friend"></label><input id="friend" type="radio" name="option" value="option"/> Maybe </label>
+       <br>
+    </label>
+    </div>
+    <p>
+       <label for="">What would you like to see improved? (Check all that apply)
+        <label for="course"><input type="checkbox" id="course" value="data">Front-end Projects</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="data">Back-end Projects</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="data">Data Visualization</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="challenges">Challenges</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="open-source">Open Source Community</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="help">Gitter help rooms</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="videos">Videos</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="city">City Meetups</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="wiki" >Wiki</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="forums">Forums</label>
+        <br>
+        <label for="course"><input type="checkbox" id="course" value="courses">Additional Courses</label>
+        <br>
+       </label>
+    </p>
+    <label for="text"> Any comments or suggestions?
+        <br>
+        <textarea id="text" ></textarea>
+    </label>
+    <P></P>
+        <button id= "submit" type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
